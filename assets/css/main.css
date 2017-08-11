@@ -1,5 +1,5 @@
 .index1_div1, .index1_div2, .index1_div3 {
-    background: #f7fa75;
+    background: #fff900;
     display: block;
     padding: 5px 5px;
 }
@@ -8,7 +8,7 @@
 }
 .index1_div2{
     border: 2px solid #1a1819;
-    background: #fa75d2;
+    background: #f913b4;
 }
 .index1_div3{
     text-transform: uppercase;
@@ -19,7 +19,7 @@
 .index2_div1, .index2_div2, .index2_div3 {
     margin-left: auto;
     margin-right: auto;
-    background: #f7fa75;
+    background: #fff900;
     display: block;
     width: 50%;
     padding: 5px 5px;
@@ -30,42 +30,51 @@
 }
 .index2_div2{
     border: 2px solid #1a1819;
-    background: #fa75d2;
+    background: #f913b4;
 }
 .index3_div3{
     text-transform: uppercase;
 }
 
 /*index 3*/
-
-.index3{
-    position: absolute;
-    left: 400px;
-}
-
 .index3_span1, .index3_span2, .index3_span3 {
     display: inline;
-    background: #f7fa75;
-    padding: 5px 5px;
+    background: #fff900;
 }
 .index3_span2{
-    background: #fa75d2;
+    background: #f913b4;
     text-transform: uppercase;
 }
 
 /*index 4 */
-
-.index4{
-    position: absolute;
-    left: 400px;
-}
-
 .index4_span1, .index4_span2, .index4_span3 {
     display: inline-block;
-    background: #f7fa75;
+    width: 25%;
+    text-align: left;
+    background: #fff900;
     padding: 5px 5px 40px 5px;
 }
 .index4_span2{
-    background: #fa75d2;
+    background: #f913b4;
     text-transform: uppercase;
 }
+
+/* index 5*/
+.contenedor div{
+    margin: 20px
+}
+
+.index5_div1, .index5_div2_1, .index5_div2_2, .index5_div2_3, .index5_div3_1, .index5_div3_2, .index5_div4{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border: 3px solid #e00472;
+    background: #f1bbe9;
+}
+.index5_div2{
+    border:2px solid #2ce22c;
+    
+}
+
+
+
